@@ -4,7 +4,7 @@ import * as Font from 'expo-font';
 
 import Home from './screens/home.js';
 import { AppLoading } from 'expo';
-import Navigator from './routes/homeStack';
+import Navigator from './routes/homeStack.js';
 const getFonts = () => Font.loadAsync({
   'roboto-bold': require('./assets/fonts/Roboto-Bold.ttf'),
   'roboto-italic': require('./assets/fonts/Roboto-Italic.ttf'),
@@ -15,8 +15,8 @@ export default function App() {
 
   if (fontsLoaded) {
     return (
-      <Home />
-      // <Navigator/>
+      // <Home />
+     <Navigator/>
     );
   } else {
     return (<AppLoading
