@@ -10,7 +10,7 @@ export default function ReviewDetails({navigation}){
     return (
         <View>
             <Text style={globalStyles.container}>
-               ReviewDetails
+               { navigation.getParam('title') }
             </Text>
             <Button title="back to home screen.." onPress={pressHandler}/>
         </View>

@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { StyleSheet, Text, View } from 'react-native';
+import { StyleSheet, Text, View,Button, } from 'react-native';
 import * as Font from 'expo-font';
 
 import Home from './screens/home.js';
