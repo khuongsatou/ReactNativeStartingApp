@@ -6,16 +6,7 @@ import About from '../screens/about';
 const screens = {
     Home:{
         screen:Home,
-        navigationOptions:{
-            title:'GameZone',
-            // headerStyle:{
-            //     //backgroundColor:'#456',
-            // },
-            headerTitleStyle: {
-                fontWeight: 'italic',
-                color:'#fff'
-            },
-        }
+        
     },
     About:{
         screen:About

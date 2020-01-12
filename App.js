@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { StyleSheet, Text, View,Button, } from 'react-native';
+import { StyleSheet, Text, View, Button } from 'react-native';
 import * as Font from 'expo-font';
 
 import Home from './screens/home.js';
@@ -12,10 +12,8 @@ const getFonts = () => Font.loadAsync({
 
 export default function App() {
   const [fontsLoaded, setFontsLoaded] = useState(false);
-
   if (fontsLoaded) {
     return (
-      // <Home />
      <Navigator/>
     );
   } else {
